@@ -1,0 +1,28 @@
+
+.board {
+    width: 240px;
+    height: 60px;
+    background: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06), 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin-bottom: 12px;
+    padding: 4px;
+
+
+    .boardItem {
+        justify-content: flex-end;
+        padding: 4px 8px;
+        width: 232px;
+        height: 52px;
+        background: #F3F4F6;
+        border-radius: 6px;
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 44px;
+        color: #111827;
+    }
+    .boardItemStart{
+        justify-content: flex-start !important;
+    }
+
+}

@@ -1,0 +1,19 @@
+.clear{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06), 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin-bottom: 8px;
+    .clearItem{
+        margin-bottom: 4px;
+        display: flex;
+        justify-content: center;
+        width: 116px;
+        height: 48px;
+        border: 1px solid #E2E3E5;
+        border-radius: 6px;
+        user-select: none;
+    }
+}
+

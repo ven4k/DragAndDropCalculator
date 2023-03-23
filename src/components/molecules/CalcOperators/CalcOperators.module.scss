@@ -1,0 +1,19 @@
+.operators {
+    display: flex;
+    width: 240px;
+    height: 56px;
+    background: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06), 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin-bottom: 12px;
+    .operatorsItem {
+        flex-direction: column;
+        justify-content: center;
+        width: 52px;
+        height: 48px;
+        border: 1px solid #E2E3E5;
+        border-radius: 6px;
+        margin: 4px;
+        user-select: none;
+    }
+}
