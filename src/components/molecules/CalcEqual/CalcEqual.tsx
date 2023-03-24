@@ -1,4 +1,3 @@
-import clsx from "clsx";
 import { FC } from "react";
 import { calcResult } from "../../../store/calcSlice";
 import { useAppDispatch, useAppSelector } from "../../../store/hooks";

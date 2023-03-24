@@ -15,7 +15,6 @@ import styles from './CalculatorConstructor.module.scss';
 
 
 export const CalculatorConstructor: FC = () => {
-    // const [isConstructor, setIsConstructor] = useState(true);
     const dispatch = useAppDispatch();
     const isConstructor = useAppSelector(state => state.calcItemsList.isConstructor)
 
